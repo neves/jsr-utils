@@ -4,7 +4,7 @@
  * @returns Promise<number>
  * @example await sleep(0.5)
  */
-export function sleep (seconds: number) {
+export function sleep (seconds: number): Promise<number> {
   return new Promise<number>(resolve =>
     setTimeout(() => resolve(seconds), seconds * 1000)
   )
