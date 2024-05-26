@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "@neves/utils": "jsr:@neves/utils@^0.1.0"
+  }
+}

@@ -1,7 +1,15 @@
 {
   "name": "@neves/utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "exports": "./mod.ts",
+  "imports": {
+    "@bossley9/sjsx": "jsr:@bossley9/sjsx@^0.7.0"
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "@bossley9/sjsx",
+    "jsxImportSourceTypes": "@bossley9/sjsx"
+  },
   "publish": {
     "include": [
       "*.ts"

@@ -1,0 +1,19 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "jsr:@neves/utils@^0.1.0": "jsr:@neves/utils@0.1.0"
+    },
+    "jsr": {
+      "@neves/utils@0.1.0": {
+        "integrity": "87c2e9cd0e9f6775a2a979cba70ec7e6a561b2b3b473e04450a2aa6798226ae3"
+      }
+    }
+  },
+  "remote": {},
+  "workspace": {
+    "dependencies": [
+      "jsr:@neves/utils@^0.1.0"
+    ]
+  }
+}

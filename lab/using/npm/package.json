@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@neves/utils": "npm:@jsr/neves__utils@^0.1.0"
+  }
+}
