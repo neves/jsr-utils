@@ -1,18 +1,15 @@
 {
   "name": "@neves/utils",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "exports": "./mod.ts",
   "license": "MIT",
   "imports": {
-    "@bossley9/sjsx": "jsr:@bossley9/sjsx@^0.12.5",
-    "@cloudflare/workers-types": "npm:@cloudflare/workers-types@^4.20250303.0"
+    "@bossley9/sjsx": "jsr:@bossley9/sjsx@^0.12.5"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
-    "jsxImportSource": "jsr:@bossley9/sjsx",
-    "jsxImportSourceTypes": "jsr:@bossley9/sjsx",
-    "types": [
-      "jsr:@bossley9/sjsx/jsx-runtime"]
+    "jsxImportSource": "@bossley9/sjsx",
+    "jsxImportSourceTypes": "@bossley9/sjsx"
   },
   "publish": {
     "include": [

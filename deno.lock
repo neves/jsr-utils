@@ -1,25 +1,16 @@
 {
   "version": "4",
   "specifiers": {
-    "jsr:@bossley9/sjsx@*": "0.12.5",
-    "jsr:@bossley9/sjsx@~0.12.5": "0.12.5",
-    "npm:@cloudflare/workers-types@^4.20250303.0": "4.20250303.0"
+    "jsr:@bossley9/sjsx@~0.12.5": "0.12.5"
   },
   "jsr": {
     "@bossley9/sjsx@0.12.5": {
       "integrity": "11b388ef3372ed98e9d183ebd505f21d9457feae2bd0953de708a3322f2c867e"
     }
   },
-  "npm": {
-    "@cloudflare/workers-types@4.20250303.0": {
-      "integrity": "sha512-O7F7nRT4bbmwHf3gkRBLfJ7R6vHIJ/oZzWdby6obOiw2yavUfp/AIwS7aO2POu5Cv8+h3TXS3oHs3kKCZLraUA=="
-    }
-  },
   "workspace": {
     "dependencies": [
-      "jsr:@bossley9/sjsx@*",
-      "jsr:@bossley9/sjsx@~0.12.5",
-      "npm:@cloudflare/workers-types@^4.20250303.0"
+      "jsr:@bossley9/sjsx@~0.12.5"
     ]
   }
 }

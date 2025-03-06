@@ -1,2 +1,2 @@
 export * from './sleep.ts'
-export * from './UiButton.tsx'
+export * from './Component.tsx'
