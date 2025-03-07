@@ -1,0 +1,15 @@
+{
+  "lockfileVersion": 1,
+  "workspaces": {
+    "": {
+      "dependencies": {
+        "@neves/utils": "npm:@jsr/neves__utils",
+      },
+    },
+  },
+  "packages": {
+    "@jsr/bossley9__sjsx": ["@jsr/bossley9__sjsx@0.12.5", "https://npm.jsr.io/~/11/@jsr/bossley9__sjsx/0.12.5.tgz", {}, "sha512-vycZ53rhSHvjDChQjrqPNddD37IO+/oz3C3Js8qJaucqD6Kcwia3gT/1juvBnUVMydYf/qeuzzl0C6G+JKH9zg=="],
+
+    "@neves/utils": ["@jsr/neves__utils@0.1.3", "https://npm.jsr.io/~/11/@jsr/neves__utils/0.1.3.tgz", { "dependencies": { "@jsr/bossley9__sjsx": "^0.12.5" } }, "sha512-3xmY0a6XbIuvTiI4R4PWZfWVE//UTbPPTZ3D37KvABm40n+FuJZIzOwwfoAabOZ4XXMBCUvkKuTHUv+hIF1LEg=="],
+  }
+}

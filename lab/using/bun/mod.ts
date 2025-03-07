@@ -1,5 +1,7 @@
-import { sleep } from '@neves/utils'
+import { sleep, Teste } from '@neves/utils'
 
-console.log('Hello')
+console.log(Teste())
+
+// console.log('Hello')
 await sleep(1)
-console.log('World')
+// console.log('World')
